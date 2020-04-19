@@ -12,6 +12,7 @@ ssh-add ~/.ssh/id_rsa
 echo "-----Installing Git and Git GUI-----"
 sudo apt install git -y
 sudo apt-get install git-gui -y
+git config --global user.email $strEmail
 
 echo "-----Installing cURL-----"
 sudo apt update
