@@ -152,4 +152,6 @@ do
 done
 
 # Restart the machine to apply the changes
+echo "Finished script. Rebooting...";
+sleep 5
 sudo reboot
